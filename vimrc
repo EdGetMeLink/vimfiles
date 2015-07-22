@@ -53,7 +53,7 @@ set cursorline
 hi clear ColorColumn
 hi link ColorColumn CursorLine
 hi MatchParen term=reverse cterm=bold ctermbg=238 ctermfg=220
-"set t_Co=256
+set t_Co=256
 " }}}
 
 " Key Bindings {{{
