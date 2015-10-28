@@ -12,6 +12,9 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'molokai'
 Plugin 'ervandew/supertab'
 Plugin 'SirVer/ultisnips'
+Plugin 'https://github.com/nanotech/jellybeans.vim.git'
+Plugin 'https://github.com/Haron-Prime/Antares.git'
+Plugin 'https://github.com/evgenyzinoviev/vim-vendetta.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -19,7 +22,7 @@ call vundle#end()            " required
 
 filetype plugin indent on    " required
 " UI Style {{{
-colorscheme molokai
+colorscheme vendetta
 
 syntax on
 set shiftwidth=4
